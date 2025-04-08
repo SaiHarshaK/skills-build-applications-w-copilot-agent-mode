@@ -130,3 +130,6 @@ STATIC_URL = '/static/'
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_METHODS = ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
 CORS_ALLOW_HEADERS = ['*']
+
+# Codespace-specific settings
+CODESPACE_API_BASE_URL = 'https://symmetrical-fishstick-4q4r95rj557f5qp-8000.app.github.dev/'
